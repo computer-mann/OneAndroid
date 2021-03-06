@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EmPubLite2</string>
+    <string name="firstBtn">Button</string>
+    <string name="title_activity_layout_for_linear">LayoutForLinear</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_for_relative">ForRelative</string>
+    <string name="title_activity_layout_for_thehorizon">Fro the horizon</string>
+    <string name="change_text">Change text</string>
+    <string name="to_linear_activity">To linear activity</string>
+    <string name="to_the_horizon">To the horizon</string>
+    <string name="for_relative">For Relative</string>
+    <string name="list_view_example">List View Example</string>
+</resources>
