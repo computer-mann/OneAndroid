@@ -3,19 +3,14 @@ package com.example.empublite2.Activities;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.TextView;
 
 import com.example.empublite2.R;
 
-public class ForTheHorizon extends AppCompatActivity {
-
-
+public class ChoiceInListView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_for_the_horizon);
-
-
+        setContentView(R.layout.activity_choice_in_list_view);
     }
 }
