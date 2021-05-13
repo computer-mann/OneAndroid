@@ -13,7 +13,7 @@ import com.example.empublite2.R;
 
 public class ListViewExample extends ListActivity {
     TextView textView;
-    private static final String[] items={"lorem", "ipsum", "dolor",
+    private static final String[] listItems={"lorem", "ipsum", "dolor",
             "sit", "amet",
             "consectetuer", "adipiscing", "elit", "morbi", "vel",
             "ligula", "vitae", "arcu", "aliquet", "mollis",
@@ -26,12 +26,12 @@ public class ListViewExample extends ListActivity {
         setContentView(R.layout.activity_list_view_example);
         textView=(TextView)findViewById(R.id.selection);
         setListAdapter(new ArrayAdapter<String>(
-                this,android.R.layout.simple_list_item_1,items));
+                this,android.R.layout.simple_list_item_1,listItems));
         textView=(TextView)findViewById(R.id.selection);
     }
     @Override
     public void onListItemClick(ListView parent, View v, int position,long id) {
-        textView.setText(items[position]);
+        textView.setText(listItems[position]);
     }
 
 }
