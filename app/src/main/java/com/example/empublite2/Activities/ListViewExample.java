@@ -18,7 +18,7 @@ public class ListViewExample extends ListActivity {
             "consectetuer", "adipiscing", "elit", "morbi", "vel",
             "ligula", "vitae", "arcu", "aliquet", "mollis",
             "etiam", "vel", "erat", "placerat", "ante",
-            "porttitor", "sodales", "pellentesque", "augue", "purus"};
+            "porttitor", "sodales", "augue"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
